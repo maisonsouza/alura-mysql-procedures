@@ -28,10 +28,11 @@ sudo apt-get autoclean
 sudo apt-get install mysql-server
 sudo apt-get install mysql-workbench
 ```
-* Cnfigurando o Mysql
+* Configurando o Mysql
 ```
 sudo mysql_secure_installation
 Se você quiser fazer login como root através de programas externos:
+sudo mysql -u root
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da_nasa';
 ```
 ---
