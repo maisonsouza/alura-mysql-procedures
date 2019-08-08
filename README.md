@@ -3,7 +3,7 @@
 ## [Link do curso](https://cursos.alura.com.br/course/mysql-procedures)
 
 ### Preparando o ambiente
-* Visão geral do curso
+#### Visão geral do curso
 > Instalação no Windows.
 
 * Instalação do Mysql Installer.
@@ -35,6 +35,8 @@ Se você quiser fazer login como root através de programas externos:
 sudo mysql -u root
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da_nasa';
 ```
+##### Recuperando a base de dados
+
 ---
 
 ### Stored Procedures Básico
