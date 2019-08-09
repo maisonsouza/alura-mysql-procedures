@@ -36,10 +36,14 @@ sudo mysql -u root
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da_nasa';
 ```
 ##### Recuperando a base de dados
+* Para realizar o curso deve ser feito a recuperação da base de dados no workbench.
 
 ---
 
 ### Stored Procedures Básico
+* O sql não possui uma linguagem de programação estruturada que permita realizar comandos de programação(decisão, repetição)
+DELIMITER (Separador de linha)
+
 
 ---
 
