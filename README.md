@@ -44,6 +44,33 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da
 * O sql não possui uma linguagem de programação estruturada que permita realizar comandos de programação(decisão, repetição)
 DELIMITER (Separador de linha)
 
+#### Exemplo de Stored Procedure
+```
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_com_comentarios`()
+BEGIN
+/* Vamos exibir itens combinados entre textos e números */
+-- Usando a função CONCAT
+SELECT concat('Alô Mundo!!!', '......',(1+9)-5) as itens_combinados_com_comentarios;
+END
+```
+
+#### Para chamar a Stored Procedure
+```
+call nome_da_stored_procedure;
+```
+
+#### Para alterar um Stored Procedure
+```
+USE `sucos_vendas`;
+DROP procedure IF EXISTS `mostra_numero`;
+```
+Não há um comando para alterar, devemos excluir e criar novamente.
+
+#### Declarando variáveis
+```
+declare ts datetime default localtimestamp();
+
+```
 
 ---
 
