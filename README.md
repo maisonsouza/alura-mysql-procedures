@@ -69,7 +69,10 @@ Não há um comando para alterar, devemos excluir e criar novamente.
 #### Declarando variáveis
 ```
 declare ts datetime default localtimestamp();
-
+```
+#### Como atribuir um valor a uma variável
+```
+set texto = 'Texto modificado';
 ```
 
 ---
