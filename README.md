@@ -2,13 +2,12 @@
 ![](https://www.alura.com.br/assets/api/share/curso-mysql-procedures.png)
 ## [Link do curso](https://cursos.alura.com.br/course/mysql-procedures)
 
-### Preparando o ambiente
+### Aula01 - Preparando o ambiente
 #### Visão geral do curso
 > Instalação no Windows.
-
 * Instalação do Mysql Installer.
+  * Developer Default.
 * IDE Mysql Workbench.
-* Developer Default.
 
 > Instalação no Ubuntu
 * Comando para verificar se o Mysql está instalado
