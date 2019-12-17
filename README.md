@@ -54,6 +54,9 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da
 
 - Para realizar o curso deve ser feito a recuperação da base de dados no workbench.
 
+- A instalar o MySQL
+- A recuperar da base de dados a ser usada neste treinamento
+
 ------
 
 ### Stored Procedures Básico
